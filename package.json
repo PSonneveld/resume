@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PSonneveld/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PSonneveld/resume/issues"
+  },
+  "homepage": "https://github.com/PSonneveld/resume#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
