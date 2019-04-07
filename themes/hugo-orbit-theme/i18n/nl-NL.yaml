@@ -1,0 +1,14 @@
+- id: education
+  translation: Opleiding
+- id: experiences
+  translation: Ervaring
+- id: interests
+  translation: Interesses
+- id: language
+  translation: Talen
+- id: projects
+  translation: Projecten
+- id: skills
+  translation: Vaardigheden
+- id: summary
+  translation: Profiel

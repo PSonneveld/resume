@@ -5,7 +5,7 @@ languageCode = "nl-NL"
 title = "Curriculum Vitae - Patrick Sonneveld"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-publishDir = "docs"
+publishDir = "public"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -49,7 +49,7 @@ disable404 = true
         class = "phone"
         icon = "fas fa-phone"
         url = "tel:+31627376373"
-        title = "+31(0)6 27376373"
+        title = "+31(0)6 - 27 37 63 73"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -75,17 +75,17 @@ disable404 = true
         title = "Opleiding"
 
         [[params.education.list]]
-        degree = "Game Technologie"
+        degree = "Game Technologie (Minor)"
         college = "Hogeschool Utrecht"
         dates = "2009 - 2011"
 
         [[params.education.list]]
-        degree = "Media Technologie"
+        degree = "Media Technologie (HBO)"
         college = "Hogeschool Utrecht"
-        dates = "2007 - 2010"
+        dates = "2007 - 2011"
 
         [[params.education.list]]
-        degree = "HAVO - Natuur & Techniek"
+        degree = "HAVO Natuur & Techniek"
         college = "Guido de Brès te Amersfoort"
         dates = "2002 - 2007"
 
@@ -110,10 +110,10 @@ disable404 = true
         interest = "Programmeren"
 
         [[params.interests.list]]
-        interest = "Games"
+        interest = "Squashen;Darten"
 
         [[params.interests.list]]
-        interest = "Darten"
+        interest = "Gamen;Netflix"
 
 # Main body sections
 
@@ -123,7 +123,7 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
+        title = "Profiel"
         summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
 
     # Experiences section
@@ -133,26 +133,48 @@ disable404 = true
         title = "Werkervaring"
 
         [[params.jobs.list]]
+        position = "Lead Developer"
+        dates = "2015 - Heden"
+        company = "Goes & Roos"
+        city = "Amersfoort"
+        details = "**Goes & Roos, kantoorautomatiseerder voor de makelaardij.** Gezien het bestaande CRM verouderd was hebben we van de grond af aan het systeem opnieuw opgebouwd. We hebben met een klein tea"
+        tech = "ASP.NET MVC; C#; Angular JS; Javascript; Azure; Git"
+
+        [[params.jobs.list]]
         position = "Full Stack Developer"
-        dates = "2012 - Heden"
-        company = "Goes & Roos, Amersfoort"
-        details = "**Full Stack Developer bij Goes & Roos** Een kantoorautomatiseerder gericht op de makelaardij. Ik heb hier front- en back-end ontwikkelingen gedaan voor hun CRM-pakket (Customer relationship management). In eerste half jaar heb ik me vooral met losse projecten bezig gehouden. Denk hierbij aan: Intergratie van VoIP en koppelingen met social media. Daarna ben ik mede-verantwoordelijk geworden voor het onderhouden en ontwikkelen van het crm. Wij hebben grote delen van het systeem herschreven en de mogelijkheden uitgebreid. Momenteel ben ik o.a. bezig met een module voor alle correspondentie in ons systeem. Met deze module kunnen ze snel en gemakkelijk e-mail/brieven aanmaken. Vervolgens worden deze gekoppeld aan de juiste relaties/objecten."
+        dates = "2012 - 2015"
+        company = "Goes & Roos"
+        city = "Amersfoort"
+        details = "**Goes & Roos, kantoorautomatiseerder voor de makelaardij.** Front- en back-end ontwikkelingen voor hun CRM-pakket (Customer relationship management). In eerste half jaar heb ik me vooral met losse projecten bezig gehouden. Denk hierbij aan: Intergratie van VoIP en koppelingen met social media. Daarna ben ik mede-verantwoordelijk geworden voor het onderhouden en ontwikkelen van het crm. Wij hebben grote delen van het systeem herschreven en de mogelijkheden uitgebreid. Momenteel ben ik o.a. bezig met een module voor alle correspondentie in ons systeem. Met deze module kunnen ze snel en gemakkelijk e-mail/brieven aanmaken. Vervolgens worden deze gekoppeld aan de juiste relaties/objecten."
+        tech = "Javascript; C#; ASP Classic; Visual Basic; JQuery; NodeJS; Access"
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2013 - 2012"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Freelancer - Ontwikkelaar/Animator"
+        dates = "2011 - 2013"
+        company = "Bergman Media Group"
+        city = "Gorinchem"
+        details = "**Bergman Media Group, Crossmediaspecialist** Aantal opdrachten m.b.t. de jaarlijkse kerstgroet. Aangeleverde assets op gewenste manier animeren en op elkaar laten reageren doormiddel van Actionscript. Verder support bij een aantal kleine projecten gemaakt met Adobe Flash."
+        tech = "Adobe Flash; Actionscript"
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Stagiair - Ontwikkelaar"
+        dates = "Feb 2011 - Jun 2010"
+        company = "Spacegorillas"
+        city = "Utrecht"
+        details = "**Spacegorillas gespecialiseerd in multi-touch concepten, ontwerpen en omgevingen.** Ik heb hier een basis platform mogen maken voor een van hun producten. Er moest een gedeelte komen waarmee ze hun apps konden distribueren; En een template waarmee applicaties gemakkelijk op het platform gezet konden worden."
+        tech = "Adobe Flash; Actionscript"
+
+        [[params.jobs.list]]
+        position = "Stagiair - Ontwikkelaar"
+        dates = "Feb 2010 - Jul 2010"
+        company = "WeirdBeard Games"
+        city = "Amsterdam"
+        details = "**WeirdBeard, klein gamestudio in Amsterdam.** Ik heb hier een aantal maanden gewerkt aan een aantal minigames in een bestaande MMO. Verder heb ik hier een aantal websites en RIA's (Rich Internet Applications) onderhouden"
+        tech = "Adobe Flash; Actionscript; HTML; CSS; Javascript"
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -186,30 +208,30 @@ disable404 = true
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Vaardigheden"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
+        skill = "Javascript (ES5, ES6)"
         level = "95%"
+
+        [[params.skills.list]]
+        skill = "ASP.NET 4.6 - C#"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Angular JS"
+        level = "90%"
 
         [[params.skills.list]]
         skill = "HTML5 & CSS"
-        level = "95%"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "SQL/SQL-Server"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Azure"
         level = "60%"
 
     # Footer section
