@@ -2,6 +2,7 @@
                 <h2 class="section-title"><i class="fa {{ .Site.Params.experiences.icon }}"></i>{{ .Site.Params.summary.title }}</h2>
                 <!--<h2 class="section-title"><i class="fa {{ .Site.Params.summary.icon }}"></i>{{ i18n "summary" }}</h2>-->
                 <div class="summary">
-                    <p>{{ with .Site.Params.summary.summary }}{{ . | markdownify }}{{ end }}</p>
+                    <p>{{ with .Site.Params.summary.paragraph1 }}{{ . | markdownify }}{{ end }}</p>
+                    <p>{{ with .Site.Params.summary.paragraph2 }}{{ . | markdownify }}{{ end }}</p>
                 </div><!--//summary-->
             </section><!--//section-->

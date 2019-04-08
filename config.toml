@@ -107,14 +107,14 @@ disable404 = true
         enable = true
         title = "Interesses"
         [[params.interests.list]]
-        interest = "Programmeren"
-
+        interest = "Gamen"
         [[params.interests.list]]
-        interest = "Squashen;Darten"
-
+        interest = "Squashen"
         [[params.interests.list]]
-        interest = "Gamen;Netflix"
-
+        interest = "Darten"
+        [[params.interests.list]]
+        interest = "Snowboarden"
+        
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -124,7 +124,8 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Profiel"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        paragraph1 = "29 jaar; Getrouwd en vader van een zoon; Naast mijn liefde voor programmeren hou ik van een goede game of film. Ook ben ik altijd in voor een potje squash."
+        paragraph2 = "Op het werk lig ik goed in de groep en probeer ik altijd constructieve oplossingen te vinden die voor iedereen passend zijn. Ik ben altijd geïntresseerd in nieuwe technieken en leer hier graag meer over. Daarom ga ik ook graag een nieuwe uitdaging aan."
 
     # Experiences section
     [params.experiences]
@@ -137,15 +138,15 @@ disable404 = true
         dates = "2015 - Heden"
         company = "Goes & Roos"
         city = "Amersfoort"
-        details = "**Goes & Roos, kantoorautomatiseerder voor de makelaardij.** Gezien het bestaande CRM verouderd was hebben we van de grond af aan het systeem opnieuw opgebouwd. We hebben met een klein tea"
-        tech = "ASP.NET MVC; C#; Angular JS; Javascript; Azure; Git"
+        details = "**Goes & Roos, kantoorautomatiseerder voor de makelaardij.** Gezien het bestaande CRM (zie hieronder) verouderd was hebben we met een klein team het systeem van de grond af aan opnieuw opgebouwd. We gebruikte hierbij nieuwere technieken en hosten de app nu in Azure. Naast ontwikkelen van modules ben ik als team lead verantwoordelijk voor de hosting; opzetten van procedures en ontwikkelingen van buitenaf (uitbesteden in binnen- en buitenland, koppelaars, begeleiden van stagiairs). Daarnaast denk ik mee bij ontwikkelingen van nieuwe modules en onderhoud aan de bestaande."
+        tech = "ASP.NET MVC; C#; SPA met Angular JS; Javascript; Azure; Git (Gitflow); GitLab"
 
         [[params.jobs.list]]
         position = "Full Stack Developer"
         dates = "2012 - 2015"
         company = "Goes & Roos"
         city = "Amersfoort"
-        details = "**Goes & Roos, kantoorautomatiseerder voor de makelaardij.** Front- en back-end ontwikkelingen voor hun CRM-pakket (Customer relationship management). In eerste half jaar heb ik me vooral met losse projecten bezig gehouden. Denk hierbij aan: Intergratie van VoIP en koppelingen met social media. Daarna ben ik mede-verantwoordelijk geworden voor het onderhouden en ontwikkelen van het crm. Wij hebben grote delen van het systeem herschreven en de mogelijkheden uitgebreid. Momenteel ben ik o.a. bezig met een module voor alle correspondentie in ons systeem. Met deze module kunnen ze snel en gemakkelijk e-mail/brieven aanmaken. Vervolgens worden deze gekoppeld aan de juiste relaties/objecten."
+        details = "**Goes & Roos, kantoorautomatiseerder voor de makelaardij.** Front- en back-end ontwikkelingen voor hun CRM-pakket (Customer relationship management). In eerste half jaar heb ik me vooral met losse projecten bezig gehouden. Denk hierbij aan: Intergratie van VoIP en koppelingen met social media. Daarna ben ik mede-verantwoordelijk geworden voor het ontwikkelen en onderhouden van het crm. Wij hebben grote delen van het systeem herschreven en de mogelijkheden uitgebreid. Een groot onderdeel daarvan was de module voor alle correspondentie van het systeem. Met deze module kunnen makelaars snel en gemakkelijk e-mail/brieven aanmaken aan de hand van eigen templates. Vervolgens worden deze gekoppeld aan de juiste relaties/objecten."
         tech = "Javascript; C#; ASP Classic; Visual Basic; JQuery; NodeJS; Access"
 
         [[params.jobs.list]]
@@ -169,7 +170,7 @@ disable404 = true
         dates = "Feb 2010 - Jul 2010"
         company = "WeirdBeard Games"
         city = "Amsterdam"
-        details = "**WeirdBeard, klein gamestudio in Amsterdam.** Ik heb hier een aantal maanden gewerkt aan een aantal minigames in een bestaande MMO. Verder heb ik hier een aantal websites en RIA's (Rich Internet Applications) onderhouden"
+        details = "**WeirdBeard, klein gamestudio in Amsterdam.** Ik heb hier een aantal maanden gewerkt aan een aantal minigames in hun bestaande framework. Verder heb ik hier een aantal websites en RIA's (Rich Internet Applications) onderhouden."
         tech = "Adobe Flash; Actionscript; HTML; CSS; Javascript"
 
     # Projects section
@@ -233,6 +234,14 @@ disable404 = true
         [[params.skills.list]]
         skill = "Azure"
         level = "60%"
+
+        [[params.skills.list]]
+        skill = "Git (GitFlow)"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "NodeJS"
+        level = "55%"
 
     # Footer section
 
